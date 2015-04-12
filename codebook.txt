@@ -1,0 +1,216 @@
+This CodeBook describes how the Data in the "UCI HAR Dataset" have been processed and cleaned according to the course project assignments. 
+
+
+
+step1 # 1. Merges the training and the test sets to create one data set. 
+step2 # 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+step3 # 3. Uses descriptive activity names to name the activities in the data set. 
+step4 # 4. Appropriately labels the data set with descriptive activity names. 
+step5 # 5. Creates a 2nd, independent tidy data set with the average of each variable for each activity and each           subject. 
+
+
+The final result colnames :
+
+[[1]]
+[1] "subject"
+
+[[2]]
+[1] "activity"
+
+[[3]]
+[1] "tbodyacc-mean-x"
+
+[[4]]
+[1] "tbodyacc-mean-y"
+
+[[5]]
+[1] "tbodyacc-mean-z"
+
+[[6]]
+[1] "tbodyacc-std-x"
+
+[[7]]
+[1] "tbodyacc-std-y"
+
+[[8]]
+[1] "tbodyacc-std-z"
+
+[[9]]
+[1] "tgravityacc-mean-x"
+
+[[10]]
+[1] "tgravityacc-mean-y"
+
+[[11]]
+[1] "tgravityacc-mean-z"
+
+[[12]]
+[1] "tgravityacc-std-x"
+
+[[13]]
+[1] "tgravityacc-std-y"
+
+[[14]]
+[1] "tgravityacc-std-z"
+
+[[15]]
+[1] "tbodyaccjerk-mean-x"
+
+[[16]]
+[1] "tbodyaccjerk-mean-y"
+
+[[17]]
+[1] "tbodyaccjerk-mean-z"
+
+[[18]]
+[1] "tbodyaccjerk-std-x"
+
+[[19]]
+[1] "tbodyaccjerk-std-y"
+
+[[20]]
+[1] "tbodyaccjerk-std-z"
+
+[[21]]
+[1] "tbodygyro-mean-x"
+
+[[22]]
+[1] "tbodygyro-mean-y"
+
+[[23]]
+[1] "tbodygyro-mean-z"
+
+[[24]]
+[1] "tbodygyro-std-x"
+
+[[25]]
+[1] "tbodygyro-std-y"
+
+[[26]]
+[1] "tbodygyro-std-z"
+
+[[27]]
+[1] "tbodygyrojerk-mean-x"
+
+[[28]]
+[1] "tbodygyrojerk-mean-y"
+
+[[29]]
+[1] "tbodygyrojerk-mean-z"
+
+[[30]]
+[1] "tbodygyrojerk-std-x"
+
+[[31]]
+[1] "tbodygyrojerk-std-y"
+
+[[32]]
+[1] "tbodygyrojerk-std-z"
+
+[[33]]
+[1] "tbodyaccmag-mean"
+
+[[34]]
+[1] "tbodyaccmag-std"
+
+[[35]]
+[1] "tgravityaccmag-mean"
+
+[[36]]
+[1] "tgravityaccmag-std"
+
+[[37]]
+[1] "tbodyaccjerkmag-mean"
+
+[[38]]
+[1] "tbodyaccjerkmag-std"
+
+[[39]]
+[1] "tbodygyromag-mean"
+
+[[40]]
+[1] "tbodygyromag-std"
+
+[[41]]
+[1] "tbodygyrojerkmag-mean"
+
+[[42]]
+[1] "tbodygyrojerkmag-std"
+
+[[43]]
+[1] "fbodyacc-mean-x"
+
+[[44]]
+[1] "fbodyacc-mean-y"
+
+[[45]]
+[1] "fbodyacc-mean-z"
+
+[[46]]
+[1] "fbodyacc-std-x"
+
+[[47]]
+[1] "fbodyacc-std-y"
+
+[[48]]
+[1] "fbodyacc-std-z"
+
+[[49]]
+[1] "fbodyaccjerk-mean-x"
+
+[[50]]
+[1] "fbodyaccjerk-mean-y"
+
+[[51]]
+[1] "fbodyaccjerk-mean-z"
+
+[[52]]
+[1] "fbodyaccjerk-std-x"
+
+[[53]]
+[1] "fbodyaccjerk-std-y"
+
+[[54]]
+[1] "fbodyaccjerk-std-z"
+
+[[55]]
+[1] "fbodygyro-mean-x"
+
+[[56]]
+[1] "fbodygyro-mean-y"
+
+[[57]]
+[1] "fbodygyro-mean-z"
+
+[[58]]
+[1] "fbodygyro-std-x"
+
+[[59]]
+[1] "fbodygyro-std-y"
+
+[[60]]
+[1] "fbodygyro-std-z"
+
+[[61]]
+[1] "fbodyaccmag-mean"
+
+[[62]]
+[1] "fbodyaccmag-std"
+
+[[63]]
+[1] "fbodybodyaccjerkmag-mean"
+
+[[64]]
+[1] "fbodybodyaccjerkmag-std"
+
+[[65]]
+[1] "fbodybodygyromag-mean"
+
+[[66]]
+[1] "fbodybodygyromag-std"
+
+[[67]]
+[1] "fbodybodygyrojerkmag-mean"
+
+[[68]]
+[1] "fbodybodygyrojerkmag-std"
